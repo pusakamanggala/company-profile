@@ -1,10 +1,10 @@
 import React from "react";
 import Hero from "../Hero";
 import Services from "../Services/Services";
-import CompanyExcelence from "../Services/companyExcelence";
 import VideoIntro from "../VideoIntro";
 import Contact from "../Contact";
 import UserReview from "../UserReview";
+import CompanyExcelence from "../Services/CompanyExcelence";
 
 const HomePage = () => {
   return (
