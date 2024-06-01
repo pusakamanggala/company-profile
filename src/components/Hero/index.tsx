@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] bg-gray-light"
+      className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] bg-gray-light bg-[url(/images/decoration/decor-1.svg)] bg-cover bg-center bg-no-repeat md:h-screen md:flex md:items-center"
     >
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
