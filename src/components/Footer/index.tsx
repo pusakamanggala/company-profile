@@ -17,7 +17,9 @@ const Footer = () => {
               width={40}
               height={40}
             />
-            <h1 className="text-xl font-semibold">Company Name</h1>
+            <h1 className="text-xl font-medium text-secondary">
+              Mitra Jaya Arya Sanika
+            </h1>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,

@@ -54,10 +54,15 @@ const Header = () => {
               <Image
                 src="/images/logo/logo-1.png"
                 alt="logo"
-                width={40}
-                height={40}
+                width={45}
+                height={45}
               />
-              <h1 className="text-xl font-semibold">Company Name</h1>
+              <h1 className="text-lg font-bold flex flex-col text-start leading-tight uppercase text-primary">
+                Mitra Jaya{" "}
+                <span className="text-xs text-secondary font-semibold">
+                  Arya Sanika
+                </span>
+              </h1>
             </Link>
           </div>
           <div className="flex items-center px-4">
