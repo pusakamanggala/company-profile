@@ -26,7 +26,9 @@ const UserReviewCard = ({ review }: { review: UserReview }) => {
             </svg>
           ))}
         </div>
-        <p className="line-clamp-4">{review.description}</p>
+        <p className="line-clamp-4 text-white font-light">
+          {review.description}
+        </p>
       </div>
       <div className="flex items-center gap-3 pt-5 border-t border-body-color border-opacity-40">
         {/* change this to next image tag when its using local image */}
