@@ -3,13 +3,13 @@ import { companyExcellence } from "@/types/companyExcellence";
 const companyExcellenceData: companyExcellence[] = [
   {
     id: 1,
-    title: "Lorem, ipsum dolor.",
+    title: "Pelayanan Cepat",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque harum architecto pariatur at laborum nesciunt, repudiandae sunt est. Ex, totam!",
   },
   {
     id: 2,
-    title: "Lorem, ipsum dolor.",
+    title: "Terpercaya",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quidem.",
   },
