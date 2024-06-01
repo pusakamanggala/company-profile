@@ -1,56 +1,96 @@
+import Team from "@/components/Team";
+import Image from "next/image";
 import React from "react";
 
 const About = () => {
   return (
-    <div className="container space-y-5">
-      <p className="">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nobis odio
-        atque voluptate voluptas quaerat hic, debitis cupiditate? Reprehenderit
-        eos eligendi minus veniam aut perferendis blanditiis eius optio quam
-        repellat.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam obcaecati
-        maiores esse, dolorum impedit quibusdam quasi vero minus possimus quidem
-        quas, quisquam qui labore minima eos dignissimos! Quis, distinctio
-        perspiciatis.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-        consectetur, nobis quia voluptatibus dolorum cumque exercitationem velit
-        ratione deleniti optio? Sed exercitationem dicta nesciunt unde,
-        perspiciatis commodi iusto harum ipsam ab, quam aut totam quas, est odio
-        corporis facilis nulla. Nulla facilis corporis magni consequatur,
-        possimus in delectus reprehenderit ducimus dolorum suscipit tempore
-        doloribus animi expedita ratione inventore sunt numquam autem aperiam
-        cupiditate. Similique consequuntur ducimus commodi perspiciatis nihil
-        eaque! Ut porro, dolorem assumenda iste molestias eum quibusdam est fuga
-        doloremque incidunt praesentium, ab distinctio placeat. Hic dolor dolore
-        molestiae quasi ipsa consequuntur excepturi aperiam dolorem corporis
-        voluptatibus obcaecati aut iste omnis ipsum dicta, minus reprehenderit
-        natus officiis? Ad sit in voluptatibus corporis aliquid ipsam sunt ut
-        delectus inventore cumque totam suscipit labore, error deserunt, commodi
-        officia vel similique libero optio fugit at reiciendis asperiores eaque?
-        Hic commodi, ipsum porro corrupti iure maxime, modi molestiae quo autem
-        aliquid dolor sed debitis. Beatae error voluptatibus quod, saepe
-        suscipit reiciendis eaque fuga vel facilis voluptas esse soluta. Ipsa
-        maiores unde distinctio quisquam rerum pariatur qui consequatur totam?
-        Enim culpa atque eveniet obcaecati possimus. Ad qui ducimus, labore
-        animi hic cumque explicabo modi numquam necessitatibus sint quam beatae
-        atque ratione unde quas fugiat error voluptate repellat earum debitis
-        voluptatum temporibus? Cupiditate doloremque repudiandae sed repellat
-        amet nulla blanditiis optio provident, nesciunt commodi nam dolor
-        placeat corrupti maxime tenetur animi quaerat ea, soluta debitis magnam
-        architecto quo delectus et. Ipsam voluptas esse pariatur ad doloremque
-        ipsum velit, vero, ratione voluptates dignissimos est nam dolor,
-        molestias exercitationem officiis vel? Quasi quam eaque consectetur
-        quaerat architecto magni laborum velit nihil quae quia iste vero aliquid
-        ducimus, inventore molestias neque, alias natus, voluptas blanditiis
-        fuga libero culpa officia totam. Similique, eos rerum? Nam, facere.
-        Doloribus nesciunt aperiam repellendus tempora esse voluptatum possimus
-        voluptas eveniet provident ullam! Vero!
-      </p>
-    </div>
+    <main className="pt-10 bg-gray">
+      <div className="container space-y-10 md:space-y-12 max-w-[1000px]">
+        <hgroup className="page-title">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Perferendis, dolore. Magni nemo harum error numquam tempora minus
+          </p>
+        </hgroup>
+        <div className="space-y-5">
+          <div className="relative h-96 w-full mx-auto overflow-hidden">
+            <Image
+              src="/images/about/about-1.jpg"
+              alt="author"
+              fill
+              style={{ objectFit: "cover" }}
+            />
+          </div>
+          <p className="text-justify">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis,
+            voluptatum velit! Provident obcaecati vel, quos eius repudiandae
+            ipsa sint dolorum libero, consequatur repellat in sed! Nulla
+            consequuntur, id aperiam ab rem esse nihil reiciendis! Deleniti,
+            sequi quasi! Nostrum repellendus illum nesciunt deleniti excepturi?
+            Numquam labore veritatis earum dolor, facilis recusandae voluptate
+            autem ad? Impedit, ullam. Qui incidunt esse omnis ut, libero
+            molestiae molestias sit neque fuga eum, odit aliquam dignissimos
+            veniam voluptatibus vitae voluptatem. Distinctio harum, ducimus,
+            repellendus aut labore facere numquam possimus quaerat dolorum
+            placeat iure veritatis voluptatem natus? Similique, voluptatum animi
+            repellendus dicta totam tempore optio quas dolores hic minus magni
+            debitis nemo sequi nisi amet, dolore sapiente ab unde voluptatem
+            necessitatibus. Perspiciatis maiores eius eum non beatae tenetur
+            placeat earum deleniti exercitationem facilis rem iste, dolor
+            doloremque? Repudiandae doloribus enim fuga? Non molestias quo
+            corporis cum possimus ducimus earum autem minus, ex suscipit
+            quisquam, atque, nemo eum? Debitis, aut sapiente. Consequuntur ipsam
+            animi laudantium voluptatem, aut libero nemo obcaecati ab quidem
+            provident non sit reprehenderit nobis est doloremque cum ut quia
+            quibusdam, magnam fuga. Quibusdam dolore, blanditiis voluptatum
+            nihil accusamus nesciunt suscipit qui possimus fugiat, reiciendis
+            cumque natus ad repellendus laudantium cum ipsam? Ex in pariatur
+            quo.
+          </p>
+        </div>
+        <div className="space-y-5">
+          <div className="relative h-96 w-full mx-auto overflow-hidden">
+            <Image
+              src="/images/about/about-2.jpg"
+              alt="author"
+              fill
+              style={{ objectFit: "cover" }}
+            />
+          </div>
+          <p className="text-justify">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis,
+            voluptatum velit! Provident obcaecati vel, quos eius repudiandae
+            ipsa sint dolorum libero, consequatur repellat in sed! Nulla
+            consequuntur, id aperiam ab rem esse nihil reiciendis! Deleniti,
+            sequi quasi! Nostrum repellendus illum nesciunt deleniti excepturi?
+            Numquam labore veritatis earum dolor, facilis recusandae voluptate
+            autem ad? Impedit, ullam. Qui incidunt esse omnis ut, libero
+            molestiae molestias sit neque fuga eum, odit aliquam dignissimos
+            veniam voluptatibus vitae voluptatem. Distinctio harum, ducimus,
+            repellendus aut labore facere numquam possimus quaerat dolorum
+            placeat iure veritatis voluptatem natus? Similique, voluptatum animi
+            repellendus dicta totam tempore optio quas dolores hic minus magni
+            debitis nemo sequi nisi amet, dolore sapiente ab unde voluptatem
+            necessitatibus. Perspiciatis maiores eius eum non beatae tenetur
+            placeat earum deleniti exercitationem facilis rem iste, dolor
+            doloremque? Repudiandae doloribus enim fuga? Non molestias quo
+            corporis cum possimus ducimus earum autem minus, ex suscipit
+            quisquam, atque, nemo eum? Debitis, aut sapiente. Consequuntur ipsam
+            animi laudantium voluptatem, aut libero nemo obcaecati ab quidem
+            provident non sit reprehenderit nobis est doloremque cum ut quia
+            quibusdam, magnam fuga. Quibusdam dolore, blanditiis voluptatum
+            nihil accusamus nesciunt suscipit qui possimus fugiat, reiciendis
+            cumque natus ad repellendus laudantium cum ipsam? Ex in pariatur
+            quo.
+          </p>
+        </div>
+        <div className="space-y-9">
+          <h2 className="text-center">Our Team</h2>
+          <Team />
+        </div>
+      </div>
+    </main>
   );
 };
 
