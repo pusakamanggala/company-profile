@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import menuData from "../Header/menuData";
 import serviceData from "../Services/serviceData";
-import contactData from "@/Contact/contactData";
+import contactData from "../Contact/contactData";
 
 const Footer = () => {
   return (
