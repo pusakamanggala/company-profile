@@ -8,6 +8,7 @@ const serviceData: Service[] = [
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam minima magnam nemo. Facere praesentium corporis eaque, totam non ipsam, nihil impedit tempora labore architecto libero consequatur corrupti! Dolor, nesciunt iure.",
     benefits: ["Mudah dan effisien", "Pembayaran instant", "Biaya terjangkau"],
+    website: "https://mysekuriti.com",
   },
   {
     id: 2,

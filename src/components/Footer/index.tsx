@@ -48,7 +48,18 @@ const Footer = () => {
           <ul className="space-y-3">
             {serviceData.map((service) => (
               <li key={service.id} className="text-body-color">
-                {service.title}
+                {service.website ? (
+                  <a
+                    href={service.website}
+                    className="hover:underline hover:text-secondary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {service.title}
+                  </a>
+                ) : (
+                  service.title
+                )}
               </li>
             ))}
           </ul>
