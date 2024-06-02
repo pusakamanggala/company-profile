@@ -5,7 +5,7 @@ import React from "react";
 const About = () => {
   return (
     <main className="pt-10 bg-gray">
-      <div className="container space-y-10 md:space-y-12 max-w-[1000px]">
+      <div className="container space-y-10 md:space-y-12 lg:max-w-[1000px]">
         <hgroup className="page-title">
           <h2>About Us</h2>
           <p>
