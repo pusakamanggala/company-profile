@@ -5,7 +5,7 @@ const ServiceCard = ({ service }: { service: Service }) => {
   return (
     <div
       key={service.id}
-      className="w-full md:w-80 lg:w-96 bg-gray-light p-10 rounded-[50px] rounded-tl-none space-y-5"
+      className="w-full bg-gray-light p-10 rounded-[50px] rounded-tl-none space-y-5"
     >
       <hgroup>
         <h3>{service.title}</h3>
