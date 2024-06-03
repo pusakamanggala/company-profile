@@ -26,11 +26,13 @@ const Service = () => {
         <div className="py-10 md:py-12 border-y border-gray-light">
           <CompanyExcelence />
         </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-          pariatur officiis, atque quae rem magni, cum a nihil at doloremque
-          earum inventore harum dolore quod culpa. Exercitationem culpa fugiat
-          earum!
+        <p className="text-justify">
+          PT. Mitra Jaya Arya Sanika menghadirkan solusi pengamanan terbaik
+          dengan tim profesional yang siap melindungi Anda dan aset berharga
+          Anda. Kami menggabungkan profesionalisme dengan keandalan untuk
+          memberikan pelayanan terbaik bagi Anda. Mari bersama kami, rasakan
+          perbedaan nyata dalam setiap layanan yang kami tawarkan! Keamanan
+          Anda, prioritas kami.
         </p>
         <UserReview />
       </div>

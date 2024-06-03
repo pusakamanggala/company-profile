@@ -10,17 +10,34 @@ const Contacts = () => {
           <h2>Hubungi Kami</h2>
           <p>Hubungi kami untuk layanan terbaik:</p>
         </hgroup>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sit
-          et rerum obcaecati nostrum illum delectus modi. Sapiente, odit nisi
-          doloremque unde maiores velit reiciendis quisquam obcaecati quia quas
-          nesciunt pariatur saepe temporibus placeat cumque sit ut fuga, vero at
-          debitis molestiae. Provident, iusto! Adipisci minima ab quam autem,
-          est distinctio dolor in sunt! Aliquid sequi reiciendis fugiat labore
-          voluptas magni, sed earum officiis libero incidunt porro quod
-          laboriosam quo debitis, corrupti distinctio a voluptatum, quas quasi
-          excepturi beatae odit doloremque corporis!
-        </p>
+        <div className="space-y-5">
+          <p className="text-justify">
+            Mitra Jaya Arya Sanika selalu siap untuk membantu Anda kapanpun Anda
+            membutuhkan. Kami berkomitmen untuk memberikan layanan terbaik dan
+            menjawab setiap pertanyaan atau kebutuhan Anda dengan cepat dan
+            efektif. Jangan ragu untuk menghubungi kami melalui WhatsApp kapan
+            saja dengan mengklik nomor telepon kami di bawah ini.
+          </p>
+          <p className="text-justify">
+            Kami memahami bahwa setiap kebutuhan pengamanan dan pelayanan adalah
+            unik, dan kami di sini untuk memberikan solusi yang tepat bagi Anda.
+            Tim profesional kami siap mendengarkan dan memberikan respon cepat
+            untuk memastikan Anda mendapatkan bantuan yang Anda butuhkan.
+          </p>
+          <p className="text-justify">
+            Kepuasan dan kepercayaan Anda adalah prioritas utama kami. Oleh
+            karena itu, kami menyediakan saluran komunikasi yang mudah diakses
+            agar Anda dapat dengan mudah menghubungi kami. Apakah Anda memiliki
+            pertanyaan, memerlukan konsultasi, atau ingin mengetahui lebih
+            lanjut tentang layanan kami, kami siap membantu Anda setiap saat.
+          </p>
+          <p className="text-justify">
+            Jangan ragu untuk menghubungi kami di alamat berikut atau klik nomor
+            telepon untuk terhubung langsung melalui WhatsApp. Kami berkomitmen
+            untuk memberikan respon cepat dan layanan terbaik untuk memastikan
+            kebutuhan Anda terpenuhi dengan sempurna.
+          </p>
+        </div>
         <Contact />
       </div>
     </main>
