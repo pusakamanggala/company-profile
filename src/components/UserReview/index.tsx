@@ -1,4 +1,3 @@
-import React from "react";
 import userReviewData from "./userReviewData";
 import UserReviewCard from "./UserReviewCard";
 

@@ -1,4 +1,3 @@
-import React from "react";
 import teamData from "./teamData";
 import Image from "next/image";
 

@@ -1,11 +1,10 @@
-import React from "react";
 import companyExcellenceData from "./companyExcellenceData";
 import Image from "next/image";
 
 const CompanyExcelence = () => {
   return (
-    <div className="flex lg:flex-row flex-col gap-8 ">
-      <div className="relative h-[440px] w-full mx-auto overflow-hidden">
+    <div className="flex lg:flex-row flex-col gap-8">
+      <div className="relative h-[440px] w-full mx-auto overflow-hidden z-10">
         <Image
           src="/images/team/team-work.jpg"
           alt="author"
@@ -13,7 +12,7 @@ const CompanyExcelence = () => {
           style={{ objectFit: "cover" }}
         />
       </div>
-      <ul className="space-y-7 w-full">
+      <ul className="space-y-7 w-full z-10">
         {companyExcellenceData.map((excellence) => (
           <li key={excellence.id}>
             <hgroup className="space-y-3">

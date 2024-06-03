@@ -1,11 +1,11 @@
 import { Service } from "@/types/service";
-import React from "react";
+import Image from "next/image";
 
 const ServiceCard = ({ service }: { service: Service }) => {
   return (
     <div
       key={service.id}
-      className="w-full bg-gray-light p-10 rounded-[50px] rounded-tl-none space-y-5 h-full  flex flex-col justify-between"
+      className="w-full bg-gray-light p-10 rounded-[50px] rounded-tl-none space-y-5 h-full  flex flex-col justify-between relative z-10"
     >
       <div className="space-y-5 min-h">
         <hgroup>
@@ -15,7 +15,7 @@ const ServiceCard = ({ service }: { service: Service }) => {
         <p>{service.description}</p>
       </div>
 
-      <ul className="space-y-3 min-h-[160px] border-t border-opacity-30 border-body-color pt-3">
+      <ul className="space-y-3 min-h-[160px] border-t border-opacity-30 z-[1] border-body-color pt-3">
         {service.benefits.map((benefit, index) => {
           const parts = benefit.split(":");
           const boldText = parts[0] + ":";
@@ -45,6 +45,13 @@ const ServiceCard = ({ service }: { service: Service }) => {
           );
         })}
       </ul>
+      <Image
+        src={"/images/decoration/decor-5.svg"}
+        alt="decor-5"
+        width={130}
+        height={130}
+        className="absolute bottom-0 right-0 opacity-60"
+      />
     </div>
   );
 };

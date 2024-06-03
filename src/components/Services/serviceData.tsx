@@ -9,7 +9,7 @@ const serviceData: Service[] = [
       "Temukan layanan keamanan yang tidak hanya efisien tapi juga mudah diakses. Dengan pembayaran instan dan harga bersaing, keamanan Anda adalah prioritas kami!",
     benefits: [
       "Mudah & Efisien: Solusi cepat untuk kebutuhan Anda",
-      "Pembayaran Instan: Transaksi cepat tanpa ribe",
+      "Pembayaran Instan: Transaksi cepat tanpa ribet",
       "Biaya Terjangkau: Layanan premium dengan harga bersahaba",
     ],
     website: "https://mysekuriti.com",

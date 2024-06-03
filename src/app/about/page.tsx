@@ -1,11 +1,12 @@
+import TopDecoration from "@/components/Common/TopDecoration";
 import Team from "@/components/Team";
 import Image from "next/image";
-import React from "react";
 
 const About = () => {
   return (
     <main className="pt-10 bg-gray">
-      <div className="container space-y-10 md:space-y-12 lg:max-w-[1000px]">
+      <TopDecoration />
+      <div className="container space-y-10 md:space-y-12 lg:max-w-[1000px] z-10 relative">
         <hgroup className="page-title">
           <h2>Tentang Kami</h2>
         </hgroup>

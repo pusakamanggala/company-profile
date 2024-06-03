@@ -1,14 +1,14 @@
+import TopDecoration from "@/components/Common/TopDecoration";
 import CompanyExcelence from "@/components/Services/CompanyExcelence";
 import ServiceCard from "@/components/Services/ServiceCard";
-import Services from "@/components/Services/Services";
 import serviceData from "@/components/Services/serviceData";
 import UserReview from "@/components/UserReview";
-import React from "react";
 
 const Service = () => {
   return (
-    <main className="pt-10 bg-gray">
-      <div className="container space-y-10 md:space-y-12 lg:max-w-[1000px]">
+    <main className="pt-10 bg-gray z-10">
+      <TopDecoration />
+      <div className="container space-y-10 md:space-y-12 lg:max-w-[1000px] z-10 relative">
         <hgroup className="page-title">
           <h2>Layanan Kami</h2>
           <p>

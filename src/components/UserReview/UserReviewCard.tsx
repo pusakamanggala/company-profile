@@ -1,5 +1,4 @@
 import { UserReview } from "@/types/userReview";
-import React from "react";
 
 const UserReviewCard = ({ review }: { review: UserReview }) => {
   return (

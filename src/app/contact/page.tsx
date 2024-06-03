@@ -1,10 +1,11 @@
+import TopDecoration from "@/components/Common/TopDecoration";
 import Contact from "@/components/Contact";
-import React from "react";
 
 const Contacts = () => {
   return (
     <main className="pt-10 bg-gray">
-      <div className="container space-y-10 md:space-y-12 lg:max-w-[1000px]">
+      <TopDecoration />
+      <div className="container space-y-10 md:space-y-12 lg:max-w-[1000px] z-10 relative">
         <hgroup className="page-title">
           <h2>Hubungi Kami</h2>
           <p>Hubungi kami untuk layanan terbaik:</p>
