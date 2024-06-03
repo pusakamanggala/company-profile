@@ -6,11 +6,8 @@ const Contacts = () => {
     <main className="pt-10 bg-gray">
       <div className="container space-y-10 md:space-y-12 lg:max-w-[1000px]">
         <hgroup className="page-title">
-          <h2>Reach Us</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Perferendis, dolore. Magni nemo harum error numquam tempora minus
-          </p>
+          <h2>Hubungi Kami</h2>
+          <p>Hubungi kami untuk layanan terbaik:</p>
         </hgroup>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sit

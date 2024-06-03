@@ -10,13 +10,15 @@ const Service = () => {
     <main className="pt-10 bg-gray">
       <div className="container space-y-10 md:space-y-12 lg:max-w-[1000px]">
         <hgroup className="page-title">
-          <h2>Our Services</h2>
+          <h2>Layanan Kami</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Perferendis, dolore. Magni nemo harum error numquam tempora minus
+            Temukan Layanan Terbaik Kami. Kami menyediakan berbagai layanan
+            unggulan yang dirancang untuk memenuhi kebutuhan Anda. Dari
+            pengamanan profesional hingga pengemudi handal, kami siap memberikan
+            pelayanan yang Anda butuhkan dengan standar tertinggi.
           </p>
         </hgroup>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
           {serviceData.map((service) => (
             <ServiceCard service={service} key={service.id} />
           ))}

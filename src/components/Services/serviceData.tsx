@@ -4,34 +4,38 @@ const serviceData: Service[] = [
   {
     id: 1,
     title: "mysekuriti",
-    subtitle: "Jasa Pengamanan",
+    subtitle: "Pengamanan Profesional, Nyaman, dan Terjangkau",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam minima magnam nemo. Facere praesentium corporis eaque, totam non ipsam, nihil impedit tempora labore architecto libero consequatur corrupti! Dolor, nesciunt iure.",
-    benefits: ["Mudah dan effisien", "Pembayaran instant", "Biaya terjangkau"],
+      "Temukan layanan keamanan yang tidak hanya efisien tapi juga mudah diakses. Dengan pembayaran instan dan harga bersaing, keamanan Anda adalah prioritas kami!",
+    benefits: [
+      "Mudah & Efisien: Solusi cepat untuk kebutuhan Anda",
+      "Pembayaran Instan: Transaksi cepat tanpa ribe",
+      "Biaya Terjangkau: Layanan premium dengan harga bersahaba",
+    ],
     website: "https://mysekuriti.com",
   },
   {
     id: 2,
     title: "mysupir",
-    subtitle: "Jasa Pengemudi",
+    subtitle: "Pengemudi Handal, Perjalanan Aman dan Nyaman",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam minima magnam nemo. Facere praesentium corporis eaque, totam non ipsam, nihil impedit tempora labore architecto libero consequatur corrupti! Dolor, nesciunt iure.",
+      "Nikmati layanan pengemudi berpengalaman yang siap mengantar Anda ke mana pun dengan kenyamanan dan keamanan maksimal.",
     benefits: [
-      "Lorem, ipsum dolor.",
-      "Lorem, ipsum dolor.",
-      "Lorem, ipsum dolor.",
+      "Pengemudi Berpengalaman: Profesional dan terpercaya",
+      "Layanan Fleksibel: Sesuai kebutuhan Anda",
+      "Aman & Nyaman: Perjalanan tanpa khawatir",
     ],
   },
   {
     id: 3,
     title: "Pengelola Parkir",
-    subtitle: "",
+    subtitle: "Manajemen Parkir Efisien, Bisnis Lancar",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam minima magnam nemo. Facere praesentium corporis eaque, totam non ipsam, nihil impedit tempora labore architecto libero consequatur corrupti! Dolor, nesciunt iure.",
+      "Sistem pengelolaan parkir kami dirancang untuk memaksimalkan efisiensi dan keamanan, memastikan bisnis Anda berjalan lancar setiap saat",
     benefits: [
-      "Lorem, ipsum dolor.",
-      "Lorem, ipsum dolor.",
-      "Lorem, ipsum dolor.",
+      "Sistem Modern: Teknologi terkini untuk kemudahan",
+      "Keamanan Terjamin: Parkir tanpa cemas",
+      "Layanan Responsif: Pelanggan adalah prioritas",
     ],
   },
 ];

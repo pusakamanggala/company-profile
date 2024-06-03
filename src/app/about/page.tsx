@@ -8,10 +8,6 @@ const About = () => {
       <div className="container space-y-10 md:space-y-12 lg:max-w-[1000px]">
         <hgroup className="page-title">
           <h2>About Us</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Perferendis, dolore. Magni nemo harum error numquam tempora minus
-          </p>
         </hgroup>
         <div className="space-y-5">
           <div className="relative h-96 w-full mx-auto overflow-hidden">
@@ -23,30 +19,26 @@ const About = () => {
             />
           </div>
           <p className="text-justify">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis,
-            voluptatum velit! Provident obcaecati vel, quos eius repudiandae
-            ipsa sint dolorum libero, consequatur repellat in sed! Nulla
-            consequuntur, id aperiam ab rem esse nihil reiciendis! Deleniti,
-            sequi quasi! Nostrum repellendus illum nesciunt deleniti excepturi?
-            Numquam labore veritatis earum dolor, facilis recusandae voluptate
-            autem ad? Impedit, ullam. Qui incidunt esse omnis ut, libero
-            molestiae molestias sit neque fuga eum, odit aliquam dignissimos
-            veniam voluptatibus vitae voluptatem. Distinctio harum, ducimus,
-            repellendus aut labore facere numquam possimus quaerat dolorum
-            placeat iure veritatis voluptatem natus? Similique, voluptatum animi
-            repellendus dicta totam tempore optio quas dolores hic minus magni
-            debitis nemo sequi nisi amet, dolore sapiente ab unde voluptatem
-            necessitatibus. Perspiciatis maiores eius eum non beatae tenetur
-            placeat earum deleniti exercitationem facilis rem iste, dolor
-            doloremque? Repudiandae doloribus enim fuga? Non molestias quo
-            corporis cum possimus ducimus earum autem minus, ex suscipit
-            quisquam, atque, nemo eum? Debitis, aut sapiente. Consequuntur ipsam
-            animi laudantium voluptatem, aut libero nemo obcaecati ab quidem
-            provident non sit reprehenderit nobis est doloremque cum ut quia
-            quibusdam, magnam fuga. Quibusdam dolore, blanditiis voluptatum
-            nihil accusamus nesciunt suscipit qui possimus fugiat, reiciendis
-            cumque natus ad repellendus laudantium cum ipsam? Ex in pariatur
-            quo.
+            Mitra Jaya Arya Sanika didirikan dengan visi yang jelas dan
+            ambisius: menjadi mitra terpercaya dalam menyediakan solusi terbaik
+            untuk pengamanan dan pelayanan. Sejak awal berdiri, kami telah
+            berkomitmen untuk memberikan layanan yang unggul dan inovatif.
+            Dengan tim yang terdiri dari para profesional berpengalaman, kami
+            selalu memastikan setiap proyek dikerjakan dengan standar kualitas
+            tertinggi. Kami memahami bahwa setiap kebutuhan pengamanan dan
+            pelayanan memiliki tantangan unik, dan kami bangga mampu memberikan
+            solusi yang tepat dan efektif untuk setiap klien.
+          </p>
+          <p className="text-justify">
+            Perjalanan kami dimulai dari proyek-proyek kecil, di mana kami
+            membangun reputasi kami dengan kerja keras, dedikasi, dan perhatian
+            terhadap detail. Keberhasilan dalam proyek-proyek awal ini memberi
+            kami kepercayaan untuk menangani proyek yang lebih besar dan
+            kompleks. Kini, Mitra Jaya Arya Sanika telah terlibat dalam berbagai
+            proyek besar yang mencakup berbagai sektor, termasuk perumahan,
+            komersial, dan publik. Kami selalu berusaha untuk melampaui
+            ekspektasi klien kami, memastikan bahwa setiap layanan pengamanan
+            dan pelayanan selesai tepat waktu dan sesuai kebutuhan
           </p>
         </div>
         <div className="space-y-5">
@@ -59,34 +51,37 @@ const About = () => {
             />
           </div>
           <p className="text-justify">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis,
-            voluptatum velit! Provident obcaecati vel, quos eius repudiandae
-            ipsa sint dolorum libero, consequatur repellat in sed! Nulla
-            consequuntur, id aperiam ab rem esse nihil reiciendis! Deleniti,
-            sequi quasi! Nostrum repellendus illum nesciunt deleniti excepturi?
-            Numquam labore veritatis earum dolor, facilis recusandae voluptate
-            autem ad? Impedit, ullam. Qui incidunt esse omnis ut, libero
-            molestiae molestias sit neque fuga eum, odit aliquam dignissimos
-            veniam voluptatibus vitae voluptatem. Distinctio harum, ducimus,
-            repellendus aut labore facere numquam possimus quaerat dolorum
-            placeat iure veritatis voluptatem natus? Similique, voluptatum animi
-            repellendus dicta totam tempore optio quas dolores hic minus magni
-            debitis nemo sequi nisi amet, dolore sapiente ab unde voluptatem
-            necessitatibus. Perspiciatis maiores eius eum non beatae tenetur
-            placeat earum deleniti exercitationem facilis rem iste, dolor
-            doloremque? Repudiandae doloribus enim fuga? Non molestias quo
-            corporis cum possimus ducimus earum autem minus, ex suscipit
-            quisquam, atque, nemo eum? Debitis, aut sapiente. Consequuntur ipsam
-            animi laudantium voluptatem, aut libero nemo obcaecati ab quidem
-            provident non sit reprehenderit nobis est doloremque cum ut quia
-            quibusdam, magnam fuga. Quibusdam dolore, blanditiis voluptatum
-            nihil accusamus nesciunt suscipit qui possimus fugiat, reiciendis
-            cumque natus ad repellendus laudantium cum ipsam? Ex in pariatur
-            quo.
+            Salah satu kunci keberhasilan kami adalah pendekatan kolaboratif
+            dalam setiap proyek. Kami bekerja erat dengan klien untuk memastikan
+            bahwa setiap aspek layanan pengamanan dan pelayanan berjalan lancar.
+            Pendekatan ini memungkinkan kami untuk mengidentifikasi dan
+            mengatasi potensi masalah sebelum mereka menjadi hambatan, serta
+            memastikan bahwa semua pihak terlibat dalam proses pengambilan
+            keputusan. Komunikasi yang terbuka dan transparan adalah prinsip
+            yang kami junjung tinggi dalam setiap langkah kerja kami.
+          </p>
+          <p className="text-justify">
+            Kami juga sangat peduli terhadap keberlanjutan dan dampak sosial
+            dari setiap proyek yang kami tangani. Mitra Jaya Arya Sanika
+            berkomitmen untuk menerapkan praktik pengamanan dan pelayanan yang
+            ramah lingkungan dan berkelanjutan. Kami berusaha untuk meminimalkan
+            dampak lingkungan dengan menggunakan teknologi terbaru dan metode
+            yang efisien. Kami percaya bahwa tanggung jawab kami tidak hanya
+            kepada klien, tetapi juga kepada masyarakat dan lingkungan sekitar.
+          </p>
+          <p className="text-justify">
+            Kepercayaan dan kepuasan klien adalah prioritas utama kami. Kami
+            selalu mendengarkan kebutuhan dan harapan klien, serta memberikan
+            solusi yang terbaik untuk memenuhi atau bahkan melampaui harapan
+            tersebut. Dengan pengalaman bertahun-tahun dan rekam jejak yang
+            solid, Mitra Jaya Arya Sanika terus berupaya untuk menjadi pemimpin
+            dalam industri pengamanan dan pelayanan. Kami bangga menjadi bagian
+            dari pembangunan masyarakat yang aman dan memberikan kontribusi
+            positif bagi kehidupan sehari-hari
           </p>
         </div>
         <div className="space-y-9">
-          <h2 className="text-center">Our Team</h2>
+          <h2 className="text-center">Team Kami</h2>
           <Team />
         </div>
       </div>

@@ -4,11 +4,12 @@ import React from "react";
 import menuData from "../Header/menuData";
 import serviceData from "../Services/serviceData";
 import contactData from "../Contact/contactData";
+import privacyPolicyData from "./privacyPolicyData";
 
 const Footer = () => {
   return (
     <footer className="bg-gray-light">
-      <div className="container grid gap-9 md:grid-cols-2 xl:grid-cols-5 md:gap-5">
+      <div className="container grid gap-9 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 md:gap-5">
         <div className="space-y-3 xl:col-span-2">
           <div className="flex items-center gap-3">
             <Image
@@ -21,9 +22,10 @@ const Footer = () => {
               Mitra Jaya Arya Sanika
             </h1>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-            adipisci!
+          <p className="text-base">
+            Mitra Jaya Arya Sanika adalah partner bisnis yang terpercaya dan
+            profesional. Kami menyediakan solusi terbaik untuk kebutuhan Anda
+            dengan kualitas dan layanan yang luar biasa.
           </p>
           <address className="not-italic text-body-color">
             {contactData.address}
@@ -115,6 +117,22 @@ const Footer = () => {
               </a>
             </li>
           </ul>
+        </div>
+        <div className="space-y-5">
+          <h3 className="text-xl">Kebijakan Privasi</h3>
+          <nav className="text-body-color flex flex-col space-y-3">
+            {privacyPolicyData.map((item) => (
+              <Link
+                key={item.id}
+                href={item.link}
+                target="_blank"
+                rel="noreferrer"
+                className="hover:underline w-fit"
+              >
+                {item.name}
+              </Link>
+            ))}
+          </nav>
         </div>
       </div>
     </footer>

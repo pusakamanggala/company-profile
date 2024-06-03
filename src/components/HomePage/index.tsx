@@ -19,12 +19,12 @@ const HomePage = () => {
       <section className="bg-gray" id="services">
         <div className="container">
           <hgroup className="section-title">
-            <h2>Services</h2>
+            <h2>Layanan</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde
-              odio, fugiat a optio sed maiores beatae ullam fugit voluptate non?
-              Dignissimos doloribus similique maiores molestias temporibus
-              inventore quo natus possimus.
+              Temukan Layanan Terbaik Kami. Kami menyediakan berbagai layanan
+              unggulan yang dirancang untuk memenuhi kebutuhan Anda. Dari
+              pengamanan profesional hingga pengemudi handal, kami siap
+              memberikan pelayanan yang Anda butuhkan dengan standar tertinggi.
             </p>
           </hgroup>
           <Services />
@@ -37,22 +37,20 @@ const HomePage = () => {
       <section id="intro" className="bg-gray-light">
         <div className="container">
           <hgroup className="section-title">
-            <h2>Get to know us</h2>
+            <h2>Kenali Kami</h2>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi vel
-              delectus sequi libero quis exercitationem iste aspernatur corporis
-              reiciendis placeat!
+              Di PT. Mitra Jaya Arya Sanika, kami bangga dengan dedikasi kami
+              untuk memberikan layanan berkualitas tinggi. Kami fokus pada
+              kepuasan pelanggan dan profesionalisme dalam setiap aspek
+              pekerjaan kami.
             </p>
           </hgroup>
           <VideoIntro />
         </div>
         <div className="container border-t border-body-color border-opacity-40">
           <hgroup className="section-title">
-            <h2>Get in touch</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-              quod.
-            </p>
+            <h2>Hubungi Kami</h2>
+            <p>Hubungi kami untuk layanan terbaik:</p>
           </hgroup>
           <Contact />
         </div>
@@ -61,7 +59,7 @@ const HomePage = () => {
       <section id="review" className="bg-gray">
         <div className="container">
           <hgroup className="section-title">
-            <h2>Our Happy Clients</h2>
+            <h2>Ulasan Pelanggan</h2>
           </hgroup>
           <UserReview />
         </div>

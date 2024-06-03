@@ -6,15 +6,14 @@ const Hero = () => {
       <div className="-mx-4 flex flex-wrap">
         <div className="w-full px-4">
           <hgroup className="section-title !mb-10">
-            <h1>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Distinctio, atque?
-            </h1>
+            <h1>Keamanan Terjamin dengan Sumber Daya Pengamanan Profesional</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
-              delectus cum quos, consectetur voluptate animi odit expedita
-              temporibus commodi illo dolorem quod vitae quisquam minima qui,
-              saepe esse ipsum magnam distinctio dolorum?
+              PT. Mitra Jaya Arya Sanika menghadirkan solusi pengamanan terbaik
+              dengan tim profesional yang siap melindungi Anda dan aset berharga
+              Anda. Kami menggabungkan profesionalisme dengan keandalan untuk
+              memberikan pelayanan terbaik bagi Anda. Mari bersama kami, rasakan
+              perbedaan nyata dalam setiap layanan yang kami tawarkan! Keamanan
+              Anda, prioritas kami.
             </p>
           </hgroup>
           <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
@@ -22,13 +21,13 @@ const Hero = () => {
               href="/contact"
               className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
             >
-              Contact Us
+              Hubungi Kami
             </Link>
             <Link
               href="/service"
               className="rounded-md  py-4 px-8 text-base font-semibold duration-300 ease-in-out bg-white/20 text-white hover:bg-white/30"
             >
-              Learn More
+              Selengkapnya
             </Link>
           </div>
         </div>
