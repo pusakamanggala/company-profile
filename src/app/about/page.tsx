@@ -7,7 +7,7 @@ const About = () => {
     <main className="pt-10 bg-gray">
       <div className="container space-y-10 md:space-y-12 lg:max-w-[1000px]">
         <hgroup className="page-title">
-          <h2>About Us</h2>
+          <h2>Tentang Kami</h2>
         </hgroup>
         <div className="space-y-5">
           <div className="relative h-96 w-full mx-auto overflow-hidden">
